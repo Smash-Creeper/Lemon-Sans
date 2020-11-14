@@ -1,0 +1,16 @@
+event_inherited();
+image_xscale=60
+length=image_xscale;
+type=0;
+dir=90;
+auto_destroy=true;
+auto_destroy_dir=-1;
+no_bottom=false;
+time=-1;
+outside=false;
+xscale=1
+yscale=xscale
+alpha=1
+bone_color=make_color_rgb(254,0,220)
+dd=0
+turnend_destroy=true

@@ -1,0 +1,23 @@
+if(_lemon_triggered=true){
+	_lemon_dir+=_lemon_rotate
+	if(state=!5){
+	repeat(7){
+	_lemon[_lemon_proc2].x=self.x+lengthdir_x(_lemon_distance,_lemon_dir+(360/7)*_lemon_proc2)
+	_lemon[_lemon_proc2].y=self.y-60+lengthdir_y(_lemon_distance,_lemon_dir+(360/7)*_lemon_proc2)
+	_lemon[_lemon_proc2].image_xscale=5
+	_lemon[_lemon_proc2].image_yscale=5
+	_lemon_proc2++
+	}
+	}else{
+	repeat(7){
+	_lemon[_lemon_proc2].x=self.x+lengthdir_x(_lemon_distance,_lemon_dir+(360/7)*_lemon_proc2)
+	_lemon[_lemon_proc2].y=self.y-60+lengthdir_y(_lemon_distance,_lemon_dir+(360/7)*_lemon_proc2)
+	_lemon[_lemon_proc2].image_xscale=5
+	_lemon[_lemon_proc2].image_yscale=5
+	_lemon_proc2++
+	}	
+	}
+	if(_lemon_proc2>6){
+	_lemon_proc2=0
+	}
+}

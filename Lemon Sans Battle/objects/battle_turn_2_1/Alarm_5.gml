@@ -1,0 +1,17 @@
+var b = instance_create_depth(battle_board.x+battle_board.right+10,battle_board.y+battle_board.down+10,0,battle_bullet_bone)
+b.dir=DIR.UP
+b.length=75
+b.hspeed=-4
+var b = instance_create_depth(battle_board.x+battle_board.right+90,battle_board.y-battle_board.up-10,0,battle_bullet_bone)
+b.dir=DIR.DOWN
+b.length=75
+b.hspeed=-4
+var b = instance_create_depth(battle_board.x-battle_board.left-10,battle_board.y+battle_board.down+10,0,battle_bullet_bone)
+b.dir=DIR.UP
+b.length=75
+b.hspeed=4
+var b = instance_create_depth(battle_board.x-battle_board.left-90,battle_board.y-battle_board.up-10,0,battle_bullet_bone)
+b.dir=DIR.DOWN
+b.length=75
+b.hspeed=4
+alarm[5]=60

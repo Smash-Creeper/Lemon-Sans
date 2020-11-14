@@ -1,0 +1,9 @@
+sprite_index=spr_battle_bullet_lightning
+mask_index=spr_battle_bullet_lightning_mask
+image_speed=0
+image_index=choose(0,1)
+if(mute=false){
+audio_play_sound(snd_battle_bullet_lightning,3,false)
+}
+phase=1
+alarm[1]=fadedelay

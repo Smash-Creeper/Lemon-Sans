@@ -1,0 +1,13 @@
+if(_triggered=true){
+_dir++
+repeat(21){
+bone[boneproc2].x=orbitpointx+lengthdir_x(170,(_dir+(360/21)*boneproc2))
+bone[boneproc2].y=orbitpointy+lengthdir_y(170,(_dir+(360/21)*boneproc2))
+bone[boneproc2].dir=(_dir+(360/21)*boneproc2)+180
+bone[boneproc2].length=length
+boneproc2++
+}
+if(boneproc2>20){
+	boneproc2=0
+}
+}

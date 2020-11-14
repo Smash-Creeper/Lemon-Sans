@@ -1,0 +1,17 @@
+sprite_index=spr_battle_bullet_lightning_warning
+image_alpha=1
+scale=2
+image_xscale=scale
+image_yscale=scale//*2
+angle=0
+image_angle=angle
+phase=0
+zapdelay=150
+fade=0.95
+fadespeed=2
+fadeamount=0.10
+fadedelay=10
+mute=false
+color=c_yellow
+depth=DEPTH_BATTLE.BULLET_OUTSIDE_LOW
+alarm[0]=zapdelay

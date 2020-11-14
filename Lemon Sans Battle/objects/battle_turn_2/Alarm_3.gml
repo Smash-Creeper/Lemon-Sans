@@ -1,0 +1,9 @@
+var b = instance_create_depth(battle_board.x-battle_board.left,battle_board.y+battle_board.down+15,0,battle_bullet_bone)
+b.vspeed=-0.5
+b.length=100
+b.dir=DIR.RIGHT
+var b = instance_create_depth(battle_board.x+battle_board.right,battle_board.y-battle_board.up-15,0,battle_bullet_bone_2)
+b.vspeed=0.5
+b.length=100
+b.dir=DIR.LEFT
+alarm[3]=90

@@ -1,0 +1,10 @@
+var type = choose(1,2)
+var b = instance_create_depth(battle_board.x-battle_board.left-10,battle_board.y+battle_board.down,0,battle_bullet_bone)
+b.hspeed=4
+b.length=130
+b.type=type
+var b = instance_create_depth(battle_board.x+battle_board.left+10,battle_board.y+battle_board.down,0,battle_bullet_bone)
+b.hspeed=-4
+b.length=130
+b.type=type
+alarm[6]=120

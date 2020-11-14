@@ -1,0 +1,10 @@
+sans_face.x=self.x
+sans_face.y=self.y-(41*2)
+
+draw_sprite_ext(spr_battle_enemy_sans_cape,shade,x,y-36,2,2,0,c_white,1)
+draw_sprite_ext(spr_battle_enemy_sans_legs,shade,x,y,2,2,0,c_white,1)
+draw_sprite_ext(spr_battle_enemy_sans_body,shade,x,y-54,2,2,0,c_white,1)
+draw_sprite_ext(spr_battle_enemy_sans_arm_L,0,x-34,y-76,2,2,0,c_white,1)
+draw_sprite_ext(spr_battle_enemy_sans_sholder_L,shade,x-34,y-76,2,2,0,c_white,1)
+draw_sprite_ext(spr_battle_enemy_sans_arm_R,0,x+34,y-76,2,2,0,c_white,1)
+draw_sprite_ext(spr_battle_enemy_sans_sholder_R,shade,x+34,y-76,2,2,0,c_white,1)

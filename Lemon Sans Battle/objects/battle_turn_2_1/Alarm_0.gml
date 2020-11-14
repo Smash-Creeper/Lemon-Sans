@@ -1,0 +1,17 @@
+repeat(21){
+bone[boneproc1]=instance_create_depth(battle_board.x+lengthdir_x(200,_dir2),battle_board.y+lengthdir_y(200,_dir2),0,battle_bullet_bone)	
+bone[boneproc1].dir=_dir2+180
+bone[boneproc1].length=150
+//bone[boneproc1].outside=true
+boneproc1++
+_dir+=(360/21)
+}
+repeat(21){
+bone1[boneproc3]=instance_create_depth(battle_board.x+lengthdir_x(200,_dir2),battle_board.y+lengthdir_y(200,_dir2),0,battle_bullet_bone)	
+bone1[boneproc3].dir=_dir2+180
+bone1[boneproc3].length=150
+//bone1[boneproc3].outside=true
+boneproc3++
+_dir2+=(360/21)
+}
+_triggered=true

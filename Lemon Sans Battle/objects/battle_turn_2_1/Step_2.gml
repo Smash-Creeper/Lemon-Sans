@@ -1,0 +1,38 @@
+if(_triggered=true){
+_dir+=diradd 
+_dir2+=diradd//--
+repeat(21){
+bone[boneproc2].x=orbitpointx+lengthdir_x(bonedistance,(_dir+(360/21)*boneproc2))
+bone[boneproc2].y=orbitpointy+lengthdir_y(bonedistance,(_dir+(360/21)*boneproc2))
+if(bonestate=1){
+bone[boneproc2].dir=(_dir+(360/21)*boneproc2)+180
+bone[boneproc2].length=length
+bone[boneproc2].type=type
+}else if(bonestate=2){
+bone[boneproc2].dir=(_dir+(360/21)*boneproc2)
+bone[boneproc2].length=length	
+bone[boneproc2].type=type
+}
+boneproc2++
+}
+if(boneproc2>20){
+	boneproc2=0
+}
+repeat(21){
+bone1[boneproc4].x=orbitpointx1+lengthdir_x(bonedistance,(_dir2+(360/21)*boneproc4))
+bone1[boneproc4].y=orbitpointy1+lengthdir_y(bonedistance,(_dir2+(360/21)*boneproc4))
+if(bonestate=1){
+bone1[boneproc4].dir=(_dir2+(360/21)*boneproc4)+180
+bone1[boneproc4].length=length
+bone1[boneproc4].type=type
+}else if(bonestate=2){
+bone1[boneproc4].dir=(_dir2+(360/21)*boneproc4)
+bone1[boneproc4].length=length	
+bone1[boneproc4].type=type	
+}
+boneproc4++
+}
+if(boneproc4>20){
+	boneproc4=0
+}
+}

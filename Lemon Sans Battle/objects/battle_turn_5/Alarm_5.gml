@@ -1,0 +1,9 @@
+var o = choose(0,90,180,270)
+var b = instance_create_depth(battle_board.x+lengthdir_x(800,o),battle_board.y+lengthdir_y(800,o),0,battle_bullet_gb)
+	b.x_target=battle_board.x+lengthdir_x(200,o)
+	b.y_target=battle_board.y+lengthdir_y(200,o)
+	b.angle_start=0;
+	b.angle_target=point_direction(battle_board.x+lengthdir_x(800,o),battle_board.y+lengthdir_y(800,o),battle_soul.x,battle_soul.y);;
+	b.scale_x=2;
+	b.scale_y=1;
+	alarm[5]=120
