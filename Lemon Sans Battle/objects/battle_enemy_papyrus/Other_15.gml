@@ -1,22 +1,21 @@
 ///@desc Menu End
-
+if Battle_ConvertMenuChoiceEnemyToEnemySlot(Battle_GetMenuChoiceEnemy()) == _enemy_slot {
 switch(Battle_GetMenuChoiceButton()){
 	case BATTLE_MENU_CHOICE_BUTTON.FIGHT:
 		//Check: is enemy supposed to be dead?
-		state=0
 		if(_hp<=0){
-			//Create particle effect
-			var inst=instance_create_depth(x,y,0,battle_death_particle);
-			inst.sprite=sprite_index;
-			audio_play_sound(snd_vaporize,0,false);
-			instance_destroy();
+			_hp+=clamp(round(_hp_max/3)-damage_rounds*10,1,_hp_max)
+			Battle_SetEnemyDEF(_enemy_slot,-150-damage_rounds*10);
+			melt_idealb += 1
+			damage_rounds += 1
 		}
 		break;
 		
 	case BATTLE_MENU_CHOICE_BUTTON.ACT:
 		switch(Battle_GetMenuChoiceAction()){
 			case 0:
-				Dialog_Add("* Sans - AT "+string(atk)+" DF 69&* Is not corrupted by the lemons&  He is the lemon.");
+				Dialog_Add("* PAPYRUS - AT 0 DF 0&* He likes to say:&  \"Nyeh heh heh!\"");
 				break;
 		}
+}
 }

@@ -130,14 +130,16 @@ draw_sprite_ext(spr_battle_enemy_sans_arm_R,3,x+28+_hand_offset_x,y-74,2,2,0,c_w
 //sans_face.x=self.x-2
 //sans_face.y=self.y-(41*2)
 sans_face.y=-100
-/*draw_sprite_ext(spr_battle_enemy_sans_legs,shade,x,y,2,2,0,c_white,1)
-draw_sprite_ext(spr_battle_enemy_sans_body,shade,x-2,y-68,2,2,0,c_white,1)
-draw_sprite_ext(spr_battle_enemy_sans_arm_L,1,x-32+_hand_offset_x,y-74,2,2,0,c_white,1)
-draw_sprite_ext(spr_battle_enemy_sans_arm_L_bone,0,x-34+_hand_offset_x,y-76,2,2,90,_bone_color,1)
-draw_sprite_ext(spr_battle_enemy_sans_arm_R,3,x+28+_hand_offset_x,y-74,2,2,0,c_white,1)
-*/
-
-draw_sprite_ext(spr_sans_phase3,0,x,y,2,2,0,c_white,1)
+draw_sprite_ext(spr_sans_phase3_face,0,x-10,y-118,2,2,0,c_white,1)
+draw_sprite_ext(spr_sans_phase3_legs,0,x,y-32,2,2,0,c_white,1)
+draw_sprite_ext(spr_sans_phase3_body,0,x-14,y-76,2,2,0,c_white,1)
+draw_sprite_ext(spr_sans_phase3_arm_L,0,x-38+_hand_offset_x,y-68,2,2,0,c_white,1)
+draw_sprite_ext(spr_sans_phase3_arm_R,0,x+24+_hand_offset_x,y-72,2,2,0,c_white,1)
+draw_sprite_ext(spr_sans_phase3_scythe_blade,0,x+4+_hand_offset_x,y-56,2,2,0,c_white,1)
+draw_sprite_ext(spr_sans_phase3_scythe_bone,0,x+42+_hand_offset_x,y-130,2,2,0,c_white,1)
+draw_sprite_ext(spr_sans_phase3_hand_L,0,x-40+_hand_offset_x,y-44,2,2,0,c_white,1)
+draw_sprite_ext(spr_sans_phase3_hand_R,0,x+34+_hand_offset_x,y-68,2,2,0,c_white,1)
+//draw_sprite_ext(spr_sans_phase3,0,x,y,2,2,0,c_white,1)
 
 
 }

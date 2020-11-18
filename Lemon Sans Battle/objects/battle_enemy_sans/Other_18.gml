@@ -97,6 +97,7 @@ case 0:
 instance_create_depth(0,0,0,battle_turn_2_1)
 break;
 case 1:
+_hp=1;
 //instance_create_depth(0,0,0,battle_turn_2_2)
 //alarm[5]=630
 _cutscene=true

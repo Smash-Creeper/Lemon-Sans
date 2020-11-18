@@ -1,5 +1,5 @@
 ///@desc Menu End
-
+if Battle_ConvertMenuChoiceEnemyToEnemySlot(Battle_GetMenuChoiceEnemy()) == _enemy_slot {
 switch(Battle_GetMenuChoiceButton()){
 	case BATTLE_MENU_CHOICE_BUTTON.FIGHT:
 		//Check: is enemy supposed to be dead?
@@ -26,7 +26,8 @@ switch(Battle_GetMenuChoiceButton()){
 	case BATTLE_MENU_CHOICE_BUTTON.ACT:
 		switch(Battle_GetMenuChoiceAction()){
 			case 0:
-				Dialog_Add("* Sans - AT "+string(atk)+" DF 69&* Is not corrupted by the lemons&  He is the lemon.");
+				Dialog_Add("* SANS - ATK "+string(atk)+" DEF 69&* Is not corrupted by the lemons&  He is the lemon.");
 				break;
 		}
+}
 }

@@ -7,16 +7,12 @@ _hand_angle_right=irandom_range(-2,2)
 _hand_angle_left=irandom_range(-2,2)
 }
 if(global.phase=3){
-//x=200	
-if(instance_exists(battle_menu_fight_anim_knife)){
-if(battle_menu_fight_anim_knife.x=320){
-battle_menu_fight_anim_knife.x=self.x	
-}
-}
 }
 if(_cutscene=true){
-if(Input_IsPressed(INPUT.MENU)){
-room_speed+=600	
+if(Input_IsHeld(INPUT.MENU)){
+room_speed=600	
+}else{
+room_speed=60
 }
 }else{
 room_speed=60	
@@ -41,11 +37,12 @@ break;
 }
 
 if(global.phase=3){
-	if(instance_exists(obj_battle_papyrus)){
+	if(instance_exists(battle_enemy_papyrus)){
 		
 	}else{
 		if(state=5){
-	instance_create_depth(x-150,y,0,obj_battle_papyrus)	
+	//instance_create_depth(x-150,y,0,obj_battle_papyrus)		
+	Battle_SetEnemy(battle_enemy_papyrus,2)
 		}
 	}
 	}

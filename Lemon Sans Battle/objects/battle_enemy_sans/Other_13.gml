@@ -1,5 +1,5 @@
 ///@desc Menu Switch
-
+if Battle_ConvertMenuChoiceEnemyToEnemySlot(Battle_GetMenuChoiceEnemy()) == _enemy_slot {
 switch(Battle_GetMenu()){
 	case BATTLE_MENU.FIGHT_TARGET:
 		//Create enemy's hp bar
@@ -59,4 +59,5 @@ switch(Battle_GetMenu()){
 			}
 		}
 		break;
+}
 }

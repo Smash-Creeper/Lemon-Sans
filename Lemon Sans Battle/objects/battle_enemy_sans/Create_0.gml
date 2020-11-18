@@ -3,7 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
-
+global.phase=2
 sans_face = instance_create_depth(x,y,depth-1,face_battle_sans)
 sans_face.emotion=4
 shade=1
@@ -67,7 +67,7 @@ color_enabled=true
 demo=false
 
 if(global.phase=3){
-x=320-100	
+x=320-100
 }
 
 
