@@ -27,14 +27,14 @@ if(keyboard_check_pressed(vk_f2)){
 }
 
 if(keyboard_check_pressed(192)){
-	Console_SetVisible(!Console_IsVisible());
+//	Console_SetVisible(!Console_IsVisible());
 }
 
-Console_SetStatusText(0,"FPS: "+string(fps));
-Console_SetStatusText(1,"Room: "+string(room)+"("+room_get_name(room)+")");
-Console_SetStatusText(2,"InstC: "+string(instance_count));
+//Console_SetStatusText(0,"FPS: "+string(fps));
+//Console_SetStatusText(1,"Room: "+string(room)+"("+room_get_name(room)+")");
+//Console_SetStatusText(2,"InstC: "+string(instance_count));
 
-Console_Step();
+//Console_Step();
 if(keyboard_check_pressed(ord("M"))){
 	if(_mute=true){
 	_mute=false

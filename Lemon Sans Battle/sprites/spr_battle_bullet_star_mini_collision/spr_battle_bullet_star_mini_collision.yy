@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"cdd4e572-489a-4f88-a425-e51f56158349","path":"sprites/spr_battle_bullet_star_mini_collision/spr_battle_bullet_star_mini_collision.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cdd4e572-489a-4f88-a425-e51f56158349","path":"sprites/spr_battle_bullet_star_mini_collision/spr_battle_bullet_star_mini_collision.yy",},"LayerId":{"name":"25c03c7f-ad48-4be0-9e98-181c2b1ede61","path":"sprites/spr_battle_bullet_star_mini_collision/spr_battle_bullet_star_mini_collision.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"cdd4e572-489a-4f88-a425-e51f56158349","path":"sprites/spr_battle_bullet_star_mini_collision/spr_battle_bullet_star_mini_collision.yy",},"LayerId":{"name":"2040f7d5-f724-4670-8f35-073e7b362614","path":"sprites/spr_battle_bullet_star_mini_collision/spr_battle_bullet_star_mini_collision.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"cdd4e572-489a-4f88-a425-e51f56158349","path":"sprites/spr_battle_bullet_star_mini_collision/spr_battle_bullet_star_mini_collision.yy",},"LayerId":{"name":"25c03c7f-ad48-4be0-9e98-181c2b1ede61","path":"sprites/spr_battle_bullet_star_mini_collision/spr_battle_bullet_star_mini_collision.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_battle_bullet_star_mini_collision","path":"sprites/spr_battle_bullet_star_mini_collision/spr_battle_bullet_star_mini_collision.yy",},"resourceVersion":"1.0","name":"cdd4e572-489a-4f88-a425-e51f56158349","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -38,12 +38,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6c592757-5ab1-430f-8890-eb186504a6f4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cdd4e572-489a-4f88-a425-e51f56158349","path":"sprites/spr_battle_bullet_star_mini_collision/spr_battle_bullet_star_mini_collision.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+            {"id":"6c592757-5ab1-430f-8890-eb186504a6f4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cdd4e572-489a-4f88-a425-e51f56158349","path":"sprites/spr_battle_bullet_star_mini_collision/spr_battle_bullet_star_mini_collision.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_battle_bullet_star_mini_collision","path":"sprites/spr_battle_bullet_star_mini_collision/spr_battle_bullet_star_mini_collision.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "",
     "tags": [],
     "resourceType": "GMSequence",
@@ -69,6 +69,7 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"2040f7d5-f724-4670-8f35-073e7b362614","tags":[],"resourceType":"GMImageLayer",},
     {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"25c03c7f-ad48-4be0-9e98-181c2b1ede61","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",

@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "Draw_Sprite_Skewed",
+    "path": "extensions/Draw_Sprite_Skewed/Draw_Sprite_Skewed.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}
